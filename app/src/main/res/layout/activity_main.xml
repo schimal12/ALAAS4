@@ -18,13 +18,13 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:gravity="center"
-            android:orientation="vertical"
-            android:onClick="onClick">
+            android:orientation="vertical">
             <TextView
+                android:id="@+id/texto1"
                 android:layout_marginTop="15dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Are you satisfied with your life?"
+                android:text="1 )Are you satisfied with your life?"
                 android:textColor="#191975"
                 android:textSize="25dp"
                 android:textStyle="italic" >
@@ -37,10 +37,11 @@
             android:gravity="center"
             android:orientation="vertical" >
             <TextView
+                android:id="@+id/texto2"
                 android:layout_marginTop="15dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Have you dropped many of your activities?"
+                android:text="2 )Have you dropped many of your activities?"
                 android:textColor="#191975"
                 android:textSize="25dp"
                 android:textStyle="italic" >
@@ -53,10 +54,11 @@
             android:gravity="center"
             android:orientation="vertical" >
             <TextView
+                android:id="@+id/texto3"
                 android:layout_marginTop="15dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Do you feel that your life is empty?"
+                android:text="3 )Do you feel that your life is empty?"
                 android:textColor="#191975"
                 android:textSize="25dp"
                 android:textStyle="italic" >
@@ -69,10 +71,11 @@
             android:gravity="center"
             android:orientation="vertical" >
             <TextView
+                android:id="@+id/texto4"
                 android:layout_marginTop="15dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Do you often get bored?"
+                android:text="4 )Do you often get bored?"
                 android:textColor="#191975"
                 android:textSize="25dp"
                 android:textStyle="italic" >
@@ -85,145 +88,181 @@
             android:gravity="center"
             android:orientation="vertical" >
             <TextView
+                android:id="@+id/texto5"
                 android:layout_marginTop="15dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Are you in good spirits most of the time?"
+                android:text="5 )Are you in good spirits most of the time?"
                 android:textColor="#191975"
                 android:textSize="25dp"
                 android:textStyle="italic" >
             </TextView>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:gravity="center"
             android:orientation="vertical" >
             <TextView
+                android:id="@+id/texto6"
                 android:layout_marginTop="15dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Are you afraid that something bad is going to happen to you?"
+                android:text="6 )Are you afraid that something bad is going to happen to you?"
                 android:textColor="#191975"
                 android:textSize="25dp"
                 android:textStyle="italic" >
             </TextView>
         </LinearLayout>
+
         <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:gravity="center"
         android:orientation="vertical" >
         <TextView
+            android:id="@+id/texto7"
             android:layout_marginTop="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Do you feel happy most of the time?"
+            android:text="7 )Do you feel happy most of the time?"
             android:textColor="#191975"
             android:textSize="25dp"
             android:textStyle="italic" >
         </TextView>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:gravity="center"
             android:orientation="vertical" >
             <TextView
+                android:id="@+id/texto8"
                 android:layout_marginTop="15dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Do you often feel helpless?"
+                android:text="8 )Do you often feel helpless?"
                 android:textColor="#191975"
                 android:textSize="25dp"
                 android:textStyle="italic" >
             </TextView>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:gravity="center"
             android:orientation="vertical" >
             <TextView
+                android:id="@+id/texto9"
                 android:layout_marginTop="15dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Do you prefer to stay at home, rather than going out and doing new things?"
+                android:text="9 )Do you prefer to stay at home, rather than going out and doing new things?"
                 android:textColor="#191975"
                 android:textSize="25dp"
                 android:textStyle="italic" >
             </TextView>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:gravity="center"
             android:orientation="vertical" >
             <TextView
+                android:id="@+id/texto10"
                 android:layout_marginTop="15dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Do you feel you have more problems with memory than most?"
+                android:text="10 )Do you feel you have more problems with memory than most?"
                 android:textColor="#191975"
                 android:textSize="25dp"
                 android:textStyle="italic" >
             </TextView>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:gravity="center"
             android:orientation="vertical" >
             <TextView
+                android:id="@+id/texto11"
                 android:layout_marginTop="15dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Do you thin is wonderful to be alive now?"
+                android:text="11 )Do you thin is wonderful to be alive now?"
                 android:textColor="#191975"
                 android:textSize="25dp"
                 android:textStyle="italic" >
             </TextView>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:gravity="center"
             android:orientation="vertical" >
             <TextView
+                android:id="@+id/texto12"
                 android:layout_marginTop="15dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Do you feel pretty worthless the way you are now?"
+                android:text="12 )Do you feel pretty worthless the way you are now?"
                 android:textColor="#191975"
                 android:textSize="25dp"
                 android:textStyle="italic" >
             </TextView>
         </LinearLayout>
+
         <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:gravity="center"
         android:orientation="vertical" >
         <TextView
+            android:id="@+id/texto13"
             android:layout_marginTop="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Do you feel full of energy?"
+            android:text="13 )Do you feel full of energy?"
             android:textColor="#191975"
             android:textSize="25dp"
             android:textStyle="italic" >
-        </TextView>
-    </LinearLayout>
+         </TextView>
+        </LinearLayout>
+
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:gravity="center"
             android:orientation="vertical" >
             <TextView
+                android:id="@+id/texto14"
                 android:layout_marginTop="15dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Do you that your situation is hopeless?"
+                android:text="14 )Do you that your situation is hopeless?"
+                android:textColor="#191975"
+                android:textSize="25dp"
+                android:textStyle="italic" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/texto15"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15 ) Do you think that most of people are better off than you are?"
                 android:textColor="#191975"
                 android:textSize="25dp"
                 android:textStyle="italic" >
@@ -235,10 +274,11 @@
             android:gravity="center"
             android:orientation="vertical" >
             <TextView
+                android:id="@+id/texto16"
                 android:layout_marginTop="15dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Do you think that most of people are better off than you are?"
+                android:text=""
                 android:textColor="#191975"
                 android:textSize="25dp"
                 android:textStyle="italic" >
@@ -255,7 +295,8 @@
         android:layout_marginBottom="64dp"
         android:layout_marginEnd="55dp"
         android:layout_alignParentBottom="true"
-        android:layout_toStartOf="@+id/button2" />
+        android:layout_toStartOf="@+id/button2"
+        android:onClick="onClick" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -265,5 +306,6 @@
         android:id="@+id/button2"
         android:layout_alignTop="@+id/button"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="100dp" />
+        android:layout_marginEnd="100dp"
+        android:onClick="onClickNo" />
 </RelativeLayout>

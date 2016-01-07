@@ -6,12 +6,16 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.ViewFlipper;
+import android.util.Log;
+
 
 public class MainActivity extends ActionBarActivity {
 
     private ViewFlipper viewFlipper;
     private float lastX;
+    private int noMorir = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +25,22 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void onClick(View view){
-       viewFlipper.setInAnimation(this,R.anim.slide_in_from_left);
+        Log.d("STATE",""+viewFlipper.getDisplayedChild());
+        if(viewFlipper.getDisplayedChild()==15){
+            TextView textView = (TextView)findViewById(R.id.texto16);
+            textView.setText("Número de positivos: "+noMorir);
+        }
+       viewFlipper.setInAnimation(this, R.anim.slide_in_from_left);
+        viewFlipper.setInAnimation(this, R.anim.slide_in_from_right);
+        viewFlipper.showNext();
+        noMorir+=1;
+    }
+    public void onClickNo(View view){
+        if(viewFlipper.getDisplayedChild()==15){
+            TextView textView = (TextView)findViewById(R.id.texto16);
+            textView.setText("Número de aciertos: "+noMorir);
+        }
+        viewFlipper.setInAnimation(this,R.anim.slide_in_from_left);
         viewFlipper.setInAnimation(this,R.anim.slide_in_from_right);
         viewFlipper.showNext();
     }
